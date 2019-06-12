@@ -1,0 +1,88 @@
+# For this lab, you are going to build a useful application in Tkinter that contains one API/Web Scrape AND one Persisting Data example from the list below:
+
+# API/Web Scrape (update once per hour):
+# Weather forecast (use either openweathermap.org or web scrape weather.com)
+# News headlines with functioning links to the articles (use newsapi.org and python webbrowser module)
+# Money converter (use fixer.io and needs to convert to/from US dollars and at least five other types of currency)
+
+# Persisting Data (save and load using JSON file):
+# To Do list that lets you add and delete items
+# Alarm Clock with sound (use either winsound or mp3play)
+# Contacts list with name, email, and phone. Lets you add, edit, and delete contacts
+
+#STOCKS: PORTFOLIO
+    #Properties:
+        #Company Name
+        #Company Stock Ticker
+        #Company Stock Current Price
+        #Company Stock Prev Close Price
+        #Company Stock Open Price 
+        #Company Stock Volume
+        #Company Stock 52-Week High
+        #Company Stock 52-Week Low
+        #Company Stock Annual Dividend Yield
+        #Company Stock EPS
+        #Company Stock Market Cap(aka Market Capitilization)
+        #Company Stock Price-Earnings Ratio(P/E)
+        #Company Stock Beta
+    #Web-Scrape:
+            #Yahoo Finance
+            #div id = "quote-summary"
+    #Persisting Data:
+            #Add new Stock
+            #Delete stock
+            #Retrive Stock
+            #Build Portfolio
+    #Objective:
+            #Let users add stocks that they are interested in
+                #Update all stock properties every hour
+                #Store all current stock properties to JSON File
+            #Let user delete stocks that are not interested in no more
+                #Delete stock using ticker symbol
+            #Let user search stocks that they are interested in
+                #Search using stock ticker
+                #display all the properties to the user
+            #Let user create an excel doc with porfolio
+                #send data to an excel sheet
+
+
+
+MOVING AVERAGE:
+The moving average (MA) is a simple technical analysis tool that smooths out price data by creating a constantly updated average price. 
+The average is taken over a specific period of time, like 10 days, 20 minutes, 30 weeks or any time period the trader chooses. 
+There are advantages to using a moving average in your trading, as well as options on what type of moving average to use. 
+Moving average strategies are also popular and can be tailored to any time frame, suiting both long-term investors and short-term traders. 
+(See also: The Top Four Technical Indicators Trend Traders Need to Know.)
+
+Why Use a Moving Average
+A moving average helps cut down the amount of "noise" on a price chart. 
+Look at the direction of the moving average to get a basic idea of which way the price is moving. 
+If it is angled up, the price is moving up (or was recently) overall; 
+angled down, and the price is moving down overall; moving sideways, and the price is likely in a range.
+
+A moving average can also act as support or resistance. 
+In an uptrend, a 50-day, 100-day or 200-day moving average may act as a support level, as shown in the figure below. 
+This is because the average acts like a floor (support), so the price bounces up off of it. In a downtrend, a moving average may act as resistance; 
+like a ceiling, the price hits the level and then starts to drop again.
+
+
+
+OPEN-HIGH-LOW-CLOSE:
+Open-High-Low-Close Charts show the high and low price a stock attained for a particular period of time as 
+well as the opening and closing prices of the stock for the same period. ... 
+The opening and closing prices can be shown in two ways: by markers on the line, 
+or by open-close bars superimposed on the high-low lines.
+
+
+S&P 500:
+Top 500 comps by market cap(value)
+The # of outstand shares * price = value
+
+PERCENTAGE:
+To compute percentage change in stock price if you don't have a digital percent gain calculator app handy, 
+simply subtract the old price from the new price and divide the difference by the old price. 
+Then, multiply by 100 to get the percent change. If the sign is negative, that means that the price decreased. 
+If it's positive, the price increased over time.
+
+If you call the old price p1 and the new price p2, you can write the formula as 100 * (p2 - p1) / p1. 
+This formula works for all kinds of values that change over time, not just for stock prices.
